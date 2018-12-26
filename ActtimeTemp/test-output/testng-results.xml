@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Launch browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-12-26T09:10:58Z" name="Default suite" finished-at="2018-12-26T09:11:19Z" duration-ms="20489">
+    <groups>
+    </groups>
+    <test started-at="2018-12-26T09:10:58Z" name="Default test" finished-at="2018-12-26T09:11:19Z" duration-ms="20489">
+      <class name="com.actitimetemp.Hometest.logintest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.actitimetemp.Hometest.logintest@7ee8290b]" started-at="2018-12-26T14:40:58Z" name="configBC" finished-at="2018-12-26T14:41:18Z" duration-ms="20130" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.actitimetemp.Hometest.logintest@7ee8290b]" started-at="2018-12-26T14:41:18Z" name="configBM" finished-at="2018-12-26T14:41:18Z" duration-ms="0" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[.\testdata\commondata.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: .\testdata\commondata.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at com.actitimetemp.genericlib.Flib.loginobj(Flib.java:8)
+	at com.actitimetemp.genericlib.baseClass.configBM(baseClass.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="verifylogintest()[pri:0, instance:com.actitimetemp.Hometest.logintest@7ee8290b]" started-at="2018-12-26T14:41:18Z" name="verifylogintest" finished-at="2018-12-26T14:41:19Z" duration-ms="4" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogintest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.actitimetemp.Hometest.logintest@7ee8290b]" started-at="2018-12-26T14:41:19Z" name="configAM" finished-at="2018-12-26T14:41:19Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.actitimetemp.Hometest.logintest@7ee8290b]" started-at="2018-12-26T14:41:19Z" name="configAC" finished-at="2018-12-26T14:41:19Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.actitimetemp.Hometest.logintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
